@@ -1,32 +1,30 @@
-# PalWorld-NetCrack
-This is the PalWorld network cracking framework
-modifying player data in the Player tab
-Network cracking in the Exploit tab
-# Note: The master branch does not include visual,but In imperfect branch, we'll add something that isn't on the master branch.
+# PalWorld Menu
+# Note: The original github by Bluesword007( @swordbluesword ) does not include visuals, but it is included here.
 
 # Player Features
 - Modify Player Speed
-- Modify Player Attack Power
-- Modify Player Defense Power
+- Modify Player Damage
+- Modify Player Defense
 - Infinite Stamina
 - Infinite Ammo
 
 # Exploits
-- SafeTeleport(You can choose the implementation for TP)  
-- HomeTP  
-- AnywhereTP(It requires you to manually give a position)  
-- ToggleFly  
-- DeleteSelf(Warning: After testing, it will delete your data on the server)  
-- GodHealth  
-- Give EXP (Credit: WoodgamerHD)  
-- Give Pal (Credit: Kaotic13)  
+- SafeTeleport 
+- Home TP  
+- TP Anywhere (It requires you to manually give a position)  
+- Toggle Fly   
+- Godmode
+- Give EXP (Credit: @WoodgamerHD )  
+- Give Pal (Credit: Kaotic13 )  
 - Spawn Pal
+- Give Items
+- Get all Effigy
+- Set FakeName
+  
 
-# AOBS
-> GObjects: `48 8B 05 ? ? ? ? 48 8B 0C C8 4C 8D 04 D1 EB 03`  
-> FNames: `48 8D 05 ? ? ? ? EB 13 48 8D 0D ? ? ? ? E8 ? ? ? ? C6 05 ? ? ? ? ? 0F 10`  
-> GWorld: `48 8B 1D ?? ?? ?? ?? 48 85 DB 74 33 41 B0`  
+  Other features not listed as well.
 
+  
 ## External Library Credits
 [Dear ImGui](https://github.com/ocornut/imgui)  
 [MinHook](https://github.com/TsudaKageyu/minhook)  
